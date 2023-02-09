@@ -50,3 +50,6 @@ Route::resource('timeTables', App\Http\Controllers\time_tableController::class);
 
 
 Route::resource('attendances', App\Http\Controllers\attendancesController::class);
+
+
+Route::resource('semesters', App\Http\Controllers\semesterController::class);
